@@ -1,5 +1,5 @@
 {
-    "name": "thisisdevelopment/laravel-tenants",
+    "name": "vendor-patch/laravel-tenants",
     "description": "A package to provide multi tenancy to laravel applications with minimal effort",
     "keywords": ["laravel", "multi-tenancy", "tenants"],
     "license": "MIT",
@@ -9,6 +9,9 @@
             "email": "eric@thisisdevelopment.nl"
         }
     ],
+	"provide": {
+		"thisisdevelopment/laravel-tenants": "*"
+	},    
     "require": {
         "tenancy/db-driver-mysql": "*",
         "tenancy/framework": "*",
